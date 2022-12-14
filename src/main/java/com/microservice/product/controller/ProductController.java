@@ -17,10 +17,10 @@ public class ProductController {
 
     private final ProductService productService;
 
-    @RequestMapping("/hello")
+    /*@RequestMapping("/hello")
     public String message(){
         return "Hello";
-    }
+    }*/
 
     @PostMapping
     public ResponseEntity<Long> addProduct(@RequestBody ProductRequest productRequest) {
